@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/food.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Nhúng phần header từ file header.html -->
+    <div id="header"></div>
+
+    <main class="main">
+      <div class="container">
+        <h2 class="desc desc__first">
+          Ẩm thực tại Furama Resort Đà Nẵng kết hợp một cách độc đáo giữa các
+          món ăn truyền thống của Việt Nam và đa dạng hương vị ẩm thực từ Châu
+          Á, Ý, và châu Âu.
+          <br />
+          <br />
+          Nhà hàng chính, Café Indochine, là điểm đến nổi tiếng với tiệc Buffet
+          Chợ Hải Sản và những bữa trưa đậm chất Việt. Don Cipriani’s, với tinh
+          túy ẩm thực Ý, cũng là lựa chọn không thể bỏ qua khi đến Furama Resort
+          Đà Nẵng. Ngoài ra, Hải Vân Lounge là điểm đến tuyệt vời cho những thực
+          khách yêu thích tiệc trà chiều, cocktails và các loại đồ uống đa dạng
+          khác…
+        </h2>
+        <!-- 🔍 THANH TÌM KIẾM -->
+        <div class="food__search">
+          <input type="text" id="searchInput" placeholder="Tìm món ăn..." />
+        </div>
+        <section class="food__list"></section>
+
+        <!-- Template -->
+        <template id="food-template">
+          <section class="food__item">
+            <article class="food__img">
+              <img src="" alt="" />
+            </article>
+            <div class="food__heading"></div>
+            <a href="#" class="btn__yellow btn">
+              <span class="food__price"></span>
+            </a>
+            <span class="desc desc__food"></span>
+            <ul class="list__desc"></ul>
+            <span class="desc desc__food"></span>
+            <a href="#" class="btn__blue btn">
+              <span class="food__price">Đặt bàn ngay</span>
+            </a>
+          </section>
+        </template>
+      </div>
+    </main>
+    <!-- Nhúng phần footer từ file footer.html -->
+    <div id="footer"></div>
+    <script src="../js/script.js"></script>
+    <script src="../js/food.js"></script>
+  </body>
+</html>

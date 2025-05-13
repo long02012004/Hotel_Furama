@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="icon" type="image/png" href="./img/image.png" />
+    <link rel="stylesheet" href="../css/view_room.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="background"></div>
+
+      <!-- Header -->
+      <div id="header"></div>
+
+      <!-- Search -->
+      <div class="search-container">
+        <div class="content-container">
+          <h2>Tìm khách sạn ở Đà Nẵng</h2>
+          <h2>
+            Nhập ngày bạn muốn để xem giá và ưu đãi mới nhất cho các khách sạn ở
+            Đà Nẵng
+          </h2>
+
+          <div class="input_search">
+            <div class="box address">
+              <div>
+                <i class="bx bxs-home-alt-2"></i>
+                <span>Đà Nẵng</span>
+              </div>
+              <i class="bx bx-x"></i>
+            </div>
+
+            <div class="box date">
+              <i class="bx bxs-calendar"></i>
+              <span>CN, 09 tháng 3 - T6, 20 tháng 8</span>
+            </div>
+
+            <div class="box people">
+              <i class="bx bx-child"></i>
+              <span>2 người lớn - 0 trẻ em - 1 phòng</span>
+            </div>
+          </div>
+
+          <div class="work-trip">
+            <input type="checkbox" id="work-trip-checkbox" />
+            <label for="work-trip-checkbox">Tôi đi công tác</label>
+          </div>
+
+          <div class="search">
+            <span>Tìm</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hotel List -->
+      <div class="hotel-list">
+        <div class="filter-bar">
+          <button class="active">Lựa chọn hàng đầu của chúng tôi</button>
+          <button>Ưu tiên giá thấp nhất</button>
+          <button>Xếp hạng sao và giá</button>
+          <button>Được đánh giá hàng đầu</button>
+        </div>
+
+        <!-- Hotel Item -->
+        <div class="hotel">
+          <img
+            src="../assets/images/hotel1.png"
+            alt="Phuc Thanh Luxury Hotel"
+          />
+          <div class="hotel-info">
+            <h2>Phuc Thanh Luxury Hotel by THG</h2>
+            <p>Khách sạn ở Bãi biển Mỹ Khê, Đà Nẵng</p>
+            <p>
+              Nằm ở Đà Nẵng, cách Bãi biển Mỹ Khê 8 phút đi bộ, Phuc Thanh
+              Luxury Hotel by THG cung cấp chỗ nghỉ có phòng chờ chung, chỗ đậu
+              xe riêng miễn phí, sân hiên và quầy bar.
+            </p>
+            <p class="rating">⭐️⭐️⭐️⭐️ 7.9 (901 đánh giá)</p>
+            <p class="price">Giá từ <strong>VND 391.500</strong></p>
+            <button class="btn-grad">Kiểm tra phòng trống</button>
+          </div>
+        </div>
+
+        <div class="hotel">
+          <img
+            src="../assets/images/hotel2.png"
+            alt="Valencia Da Nang Beach Hotel"
+          />
+          <div class="hotel-info">
+            <h2>Valencia Da Nang Beach Hotel</h2>
+            <p>Khách sạn ở Bãi biển Mỹ Khê, Đà Nẵng</p>
+            <p>
+              Valencia Da Nang Beach Hotel cung cấp dịch vụ tiền sảnh, các phòng
+              không gây dị ứng, khu vực bãi biển riêng và Wi-Fi miễn phí ở toàn
+              bộ chỗ nghỉ.
+            </p>
+            <p class="rating">⭐️⭐️⭐️⭐️ 8.9 (921 đánh giá)</p>
+            <p class="price">Giá từ <strong>VND 491.500</strong></p>
+            <button class="btn-grad">Kiểm tra phòng trống</button>
+          </div>
+        </div>
+
+        <div class="hotel">
+          <img src="../assets/images/hotel3.png" alt="Dylan Hotel Danang" />
+          <div class="hotel-info">
+            <h2>Dylan Hotel Danang</h2>
+            <p>Khách sạn ở Bãi biển Mỹ Khê, Đà Nẵng</p>
+            <p>
+              De Lamour Hotel Da Nang cung cấp chỗ nghỉ 4 sao với hồ bơi ngoài
+              trời, khu vườn và khu vực bãi biển riêng.
+            </p>
+            <p class="rating">⭐️⭐️⭐️⭐️ 9.9 (841 đánh giá)</p>
+            <p class="price">Giá từ <strong>VND 591.500</strong></p>
+            <button class="btn-grad">Kiểm tra phòng trống</button>
+          </div>
+        </div>
+
+        <div class="hotel">
+          <img src="../assets/images/hotel4.png" alt="Menora Grand Da Nang" />
+          <div class="hotel-info">
+            <h2>Menora Grand Da Nang</h2>
+            <p>Khách sạn ở Bãi biển Mỹ Khê, Đà Nẵng</p>
+            <p>
+              De Lamour Hotel Da Nang cung cấp chỗ nghỉ 4 sao với hồ bơi ngoài
+              trời, khu vườn và khu vực bãi biển riêng.
+            </p>
+            <p class="rating">⭐️⭐️⭐️⭐️ 7.3 (1241 đánh giá)</p>
+            <p class="price">Giá từ <strong>VND 391.500</strong></p>
+            <button class="btn-grad">Kiểm tra phòng trống</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div id="footer"></div>
+    </div>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>

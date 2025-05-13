@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-image: url(../assest/images/nenchinh.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sign-up {
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  box-shadow: 1px -4px 64px 0px rgba(33, 134, 244, 0.75);
+  -webkit-box-shadow: 1px -4px 64px 0px rgba(33, 135, 244, 0.424);
+  -moz-box-shadow: 1px -4px 64px 0px rgba(33, 135, 244, 0.423);
+}
+
+.sign-up__image {
+  flex: 2;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid #8a8787;
+}
+
+.sign-up__image-main {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sign-up__content {
+  flex: 1;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  background: white;
+}
+
+.sign-up__header {
+  position: absolute;
+  top: 10px;
+  right: 28px;
+}
+
+.sign-up__header-flag {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.bx-chevron-down {
+  font-size: 30px;
+}
+
+.sign-up__title {
+  font-size: 24px;
+  color: #cf47e7;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.sign-up__image-rocket {
+  width: 20px;
+  height: 20px;
+}
+
+.sign-up__google-login {
+  background-color: #fff;
+  color: #9f2997;
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+      90deg,
+      #3e45d2 0%,
+      #5130b3 34%,
+      #8a2be2 60%,
+      #730c7c 100%
+    )
+    1;
+  border-radius: 4px;
+  padding: 10px 15px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.sign-up__google-link {
+  text-decoration: none;
+}
+
+.bxl-google {
+  font-size: 50px;
+  background: linear-gradient(
+    90deg,
+    #3e45d2 0%,
+    #5130b3 34%,
+    #8a2be2 60%,
+    #730c7c 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sign-up__separator {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.sign-up__separator-line {
+  border: 0.5px solid #ccc;
+  width: 45%;
+}
+
+.sign-up__or {
+  margin: 0 10px;
+  font-size: 20px;
+  color: #5047b0;
+  text-align: center;
+  background-color: #fff;
+  padding: 0 5px;
+}
+
+.sign-up__form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sign-up__label {
+  font-size: 14px;
+  color: #060606;
+}
+
+.sign-up__input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.sign-up__password-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.sign-up__password-wrapper .bx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  color: #0b0b0b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-up__checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 16px;
+  color: #000;
+  font-size: 12px;
+}
+
+.sign-up__checkbox-input {
+  margin-top: 3px;
+}
+
+.sign-up__checkbox-label {
+  font-size: 12px;
+}
+
+.sign-up__submit {
+  background-color: #9f2997;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.sign-up__login-link {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 15px;
+  color: #666;
+}
+
+.sign-up__login-link-anchor {
+  color: #9f2997;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sign-up__password-icon {
+  position: absolute;
+  display: flex;
+  width: 40px;
+  height: 100%;
+  border-left: 1px solid #ccc;
+  right: 0;
+  background: #c1b5b5;
+}

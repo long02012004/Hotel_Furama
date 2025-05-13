@@ -1,0 +1,133 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng ký - Quản lý Bất động sản</title>
+    <link rel="stylesheet" href="../css/sign_up.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="sign-up">
+      <div class="sign-up__image">
+        <img
+          class="sign-up__image-main"
+          src="../assets/images/background_sign_up.png"
+          alt="Main Image"
+        />
+      </div>
+
+      <div class="sign-up__content">
+        <div class="sign-up__header">
+          <img
+            class="sign-up__header-flag"
+            src="../assets/images/flag.png"
+            alt="Flag"
+          />
+          <i class="bx bx-chevron-down"></i>
+        </div>
+
+        <h2 class="sign-up__title">
+          Đăng ký
+          <img
+            class="sign-up__image-rocket"
+            src="../assets/images/rocket.png"
+            alt="Rocket"
+          />
+        </h2>
+
+        <button class="sign-up__google-login">
+          <i class="bx bxl-google"></i>
+          <a href="../page/home.html" class="sign-up__google-link"
+            >Đăng nhập với Google</a
+          >
+        </button>
+
+        <div class="sign-up__separator">
+          <div class="sign-up__separator-line"></div>
+          <span class="sign-up__or">Hoặc</span>
+          <div class="sign-up__separator-line"></div>
+        </div>
+
+        <form id="registerForm" class="sign-up__form">
+          <label for="email" class="sign-up__label"
+            >Email hoặc Số Điện Thoại</label
+          >
+          <input
+            id="email"
+            class="sign-up__input"
+            type="text"
+            placeholder="Nhập Email hoặc số điện thoại"
+            title="Vui lòng nhập email hoặc số điện thoại"
+            name="emailPhone"
+          />
+
+          <label for="password" class="sign-up__label">Mật khẩu</label>
+          <div class="sign-up__password-wrapper">
+            <input
+              id="password"
+              class="sign-up__input sign-up__input--password"
+              type="password"
+              placeholder="Nhập mật khẩu"
+              title="Vui lòng nhập mật khẩu"
+              name="password"
+            />
+            <div class="sign-up__password-icon">
+              <i class="bx bx-hide"></i>
+            </div>
+          </div>
+
+          <label for="confirm-password" class="sign-up__label"
+            >Xác nhận lại mật khẩu</label
+          >
+          <div class="sign-up__password-wrapper">
+            <input
+              id="confirm-password"
+              class="sign-up__input sign-up__input--password"
+              type="password"
+              placeholder="Nhập lại mật khẩu"
+              title="Xác nhận lại mật khẩu"
+              name="confirmPassword"
+            />
+            <div class="sign-up__password-icon">
+              <i class="bx bx-hide"></i>
+            </div>
+          </div>
+
+          <div class="sign-up__checkbox">
+            <input
+              id="terms"
+              class="sign-up__checkbox-input"
+              type="checkbox"
+              title="Đồng ý với Điều khoản & Chính sách"
+              name="terms"
+            />
+            <label for="terms" class="sign-up__checkbox-label">
+              Tôi đồng ý với <strong>Điều khoản & Chính sách</strong>
+            </label>
+          </div>
+
+          <button
+            class="sign-up__submit"
+            type="submit"
+            title="Đăng ký tài khoản"
+          >
+            Đăng ký
+          </button>
+        </form>
+
+        <p class="sign-up__login-link">
+          Đã có tài khoản?
+          <a href="../page/log_in.html" class="sign-up__login-link-anchor"
+            >Đăng nhập</a
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+  <script src="./app.js"></script>
+</html>
